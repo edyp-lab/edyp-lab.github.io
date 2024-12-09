@@ -1,9 +1,10 @@
 ---
 layout: page
-title: Bootstrap 4 Github Pages
+title: EDyP-lab GitHub Projects
 ---
 
-[![Github-sponsors](https://img.shields.io/badge/sponsor-30363D?logo=GitHub-Sponsors&logoColor=#EA4AAA)](https://github.com/sponsors/nicolas-van) [![GitHub Repo stars](https://img.shields.io/github/stars/nicolas-van/bootstrap-4-github-pages?style=social)](https://github.com/nicolas-van/bootstrap-4-github-pages)
+
+See [EDyP web Site](https://edyp.fr) for  blabla .... 
 
 A [Bootstrap 5](https://getbootstrap.com/) template project for [Github Pages](https://pages.github.com/) and [Jekyll](https://jekyllrb.com/).
 
