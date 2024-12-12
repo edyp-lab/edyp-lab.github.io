@@ -13,16 +13,17 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: EDyP-lab Projects 
+title: EDyP-Lab Projects
 email: ""
+author: EDyP team
 description: >- # this means to ignore newlines until "baseurl:"
- All projects and associated repositories will be described here.
+ EDyP Laboratory forge software and tools
 #baseurl: "" # the subpath of your site, e.g. /blog
-#url: "" # the base hostname & protocol for your site, e.g. http://example.com
+url: "https://edyp.fr" # the base hostname & protocol for your site, e.g. http://example.com
 #twitter_username: jekyllrb
 #github_username:  jekyll
 
-repository: "test/github-pages"
+repository: "edyp-lab"
 
 # Build settings
 plugins:
@@ -31,6 +32,7 @@ plugins:
 
 # A list of the pages to display in the navigation bar
 header_pages:
+  - Proline.md
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list

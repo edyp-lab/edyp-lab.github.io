@@ -11,8 +11,6 @@
           <li>
             {%- if site.author -%}
               {{ site.author | escape }}
-            {%- else -%}
-              {{ site.title | escape }}
             {%- endif -%}
           </li>
           {%- if site.email -%}
@@ -26,15 +24,12 @@
       </div>
 
 
-      <div class="col-sm text-end">
+      <div class="col-sm text-end fs-5">
         <p>{{- site.description | escape -}}</p>
-
         <p>
+          Site last <a href="https://github.com/edyp-lab/edyp-lab.github.io" target="_blank">generated</a> at {{ site.time | date: "%R on %F"  | escape }}.<br>
           <a href="https://nicolas-van.github.io/bootstrap-4-github-pages/">Powered by Bootstrap 4 Github Pages</a>
         </p>
-        <p>
-          <a href="https://github.com/nicolas-van/bootstrap-4-github-pages"><img alt="GitHub Repo stars" src="https://img.shields.io/github/stars/nicolas-van/bootstrap-4-github-pages?style=social"></a>
-        <p>
       </div>
 
     </div>
