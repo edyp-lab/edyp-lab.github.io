@@ -1,6 +1,6 @@
 ---
 layout: page
-title: File Format Projects
+title: mzdbConverter
 ---
 
 Several projects deal with file formats and their conversion or generation.  
@@ -30,11 +30,3 @@ Start a Socket Server on specific port, and delegated process to mzdb-access.
 Thermo Fisher raw file reader, using ThermoFisher.CommonCore package. The read data may also be written into mzDB format on serializer server port
 
 * Repository [ThermoAccess](https://github.com/edyp-lab/ThermoAccess) 
-
-# mgfBoost
-**Public**   
-
-GUI application for mzdb and MGF utilities as Peaklists extraction from mzDB Format and others features0=
-
-* Repository [mgfBoost](https://github.com/edyp-lab/mgfBoost). Main repository creating distribution 
-* Release download are accessible from [ProfiProteomics-Other tools](https://www.profiproteomics.fr/proline/other-tools/)

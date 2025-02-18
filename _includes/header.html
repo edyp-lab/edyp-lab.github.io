@@ -1,5 +1,5 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <div class="container">
+  <div class="container-fluid">
     <a class="navbar-brand" rel="author" href="{{ "/" | relative_url }}"> {{ site.title | escape }}</a>
 
     {%- assign page_paths = site.header_pages -%}
@@ -9,13 +9,13 @@
     <div class="collapse navbar-collapse" id="navbarSupportedContent">
       <ul class="navbar-nav ms-md-auto">
           <li class="nav-item">
-            <a href="/" target="_self"><i class="fa fa-home px-1"></i>Home</a>
+            <a href="/" target="_self" class="nav-link"><i class="fa fa-home px-2"></i>Home</a>
           </li>
           <li class="nav-item">
-              <a href="{{ site.github.repository_url }}" target="_blank"><i class="fa fa-github px-1"></i>GitHub</a>&nbsp;&nbsp;
+              <a href="{{ site.github.repository_url }}" target="_blank" class="nav-link"><i class="fa fa-github px-2"></i>GitHub</a>&nbsp;&nbsp;
           </li>
           <li class="nav-item">
-            <a href="https://edyp.fr" target="_blank">EDyP</a>
+            <a href="https://edyp.fr" target="_blank" class="nav-link"><i class="fa fa-globe px-2"></i>EDyP website</a>
           </li>
       </ul>
     </div>

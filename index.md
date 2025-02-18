@@ -1,36 +1,42 @@
 ---
 layout: page
-title: EDyP laboratory organization
+title: EDyP laboratory projects
 ---
 
-Welcome on the [EDyP](https://edyp.fr){:target="_blank"}  lab forge, which contains the software projects developed and maintained by the EDyP team. Below is a list of software developed in our team. For each of them you can find links to source code repository, documentation or downloads 
+Welcome to the [EDyP](https://edyp.fr){:target="_blank"} laboratory computation proteomics projects website, which contains the software projects
+developed and maintained by the EDyP members. Here is a list of software developed in our lab. For each of them you can find links to source code repository, documentation or downloads 
 
-## ProstaR
+### ProstaR
  
-A software tool dedicated to the differential analysis of quantitative data resulting from discovery proteomics experiments  
-See [ProstaR pages](pages/ProstaR.md) or  [ProstaR site](https://www.prostar-proteomics.org/){:target="_blank"}
+A R/Shiny application dedicated to the differential analysis of quantitative data resulting from discovery proteomics experiments  
+See [ProstaR pages](pages/prostar) or  [ProstaR site](https://www.prostar-proteomics.org/){:target="_blank"}
 
-## Proline
+### Proline
 
-An environment for analysis of mass spectrometry based proteomics data to organize, collect,  validate, quantify, visualize and publish proteomics datasets.  
-See [Proline pages](pages/Proline.md) or  [Proline site](http://www.profiproteomics.fr/proline){:target="_blank"}
+A software environment for analysis of mass spectrometry based proteomics data to organize, collect,  validate, quantify, visualize and publish proteomics datasets.  
+See [Proline pages](pages/proline) or  [Proline site](http://www.profiproteomics.fr/proline){:target="_blank"}
 
-## Mzdb converter
+### MzScope
 
-Converts raw file from various mass spectrometer manufacturers into an mzdb file.  
-See [file format utils pages](pages/FormatUtil.md)
+Display and navigate MS data from mzdb files.  
+See [MzScope page](pages/mzScope)
 
-## MGFBoost
+### Mzdb converter
 
-MGFBoost extract peaklists from raw files in mzdb format prior to search engine submission for spectra identification.  
-See [Proline pages](pages/Proline.md)
+Converts raw files from various mass spectrometer manufacturers into mzdb files.  
+See [file format utils pages](pages/mzdbConverter)
 
-## ePims
+### MGFBoost
+
+MGFBoost extract peaklists from raw MS data in mzdb format prior to search engine submission for peptide identification.  
+See [MGFBoost pages](pages/mgfBoost)
+
+### ePims
 
 A LIMS dedicated to mass spectrometry data.  
-See [ePims pages](pages/epims.md) : **TO BE DONE**
+See [ePims pages](pages/ePims) : **TO BE DONE**
 
 ## Tools
 
 A set of usefully tools is also defined through few repositories.  
-A list with desctiption is accessible on [Tools pages](pages/Tools.md)   **TO BE DONE**
+A list with description is accessible on [Tools pages](pages/Tools.md)   **TO BE DONE**
