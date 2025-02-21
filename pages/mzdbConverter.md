@@ -3,24 +3,24 @@ layout: project
 title: mzdbConverter
 see_also: "true"
 web_home: "http://www.profiproteomics.fr/proline"
-github_project: "**https://github.com/edyp-lab/msDataConverter**"
-url_download: "http://www.profiproteomics.fr/proline-downloads/"
+github_project: "https://github.com/edyp-lab/msDataConverter"
+url_download: "https://www.profiproteomics.fr/proline-downloads/#ms_files_toolset"
 ---
 <br>
 Command line tool to convert Thermo ".raw" files or Brucker ".d" directories to mzdb files.   
 <br>
 <a href="/images/mzdb_convert.png" target="_blank">
-    <img src="/images/mzdb_convert.png" class="screenshot" />
+    <img alt="mzdb_convert help" src="/images/mzdb_convert.png" class="screenshot" />
 </a>
 <br>
 For Thermo raw files : 
 <a href="/images/mzdb_convert_thermo.png" target="_blank">
-    <img src="/images/mzdb_convert_thermo.png" class="screenshot" />
+    <img alt="mzdb_convert help" src="/images/mzdb_convert_thermo.png" class="screenshot" />
 </a>
 <br>
 For Brucker .d folders :
 <a href="/images/mzdb_convert_brucker.png" target="_blank">
-<img src="/images/mzdb_convert_brucker.png" class="screenshot" />
+<img alt="mzdb_convert help" src="/images/mzdb_convert_brucker.png" class="screenshot" />
 </a>
 
 * The main repository creates the final distribution but it includes other modules, see description below.
