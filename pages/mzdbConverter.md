@@ -1,32 +1,55 @@
 ---
-layout: page
+layout: project
 title: mzdbConverter
+see_also: "true"
+web_home: "http://www.profiproteomics.fr/proline"
+github_project: "**https://github.com/edyp-lab/msDataConverter**"
+url_download: "http://www.profiproteomics.fr/proline-downloads/"
 ---
+<br>
+Command line tool to convert Thermo ".raw" files or Brucker ".d" directories to mzdb files.   
+<br>
+<a href="/images/mzdb_convert.png" target="_blank">
+    <img src="/images/mzdb_convert.png" class="screenshot" />
+</a>
+<br>
+For Thermo raw files : 
+<a href="/images/mzdb_convert_thermo.png" target="_blank">
+    <img src="/images/mzdb_convert_thermo.png" class="screenshot" />
+</a>
+<br>
+For Brucker .d folders :
+<a href="/images/mzdb_convert_brucker.png" target="_blank">
+<img src="/images/mzdb_convert_brucker.png" class="screenshot" />
+</a>
 
-Several projects deal with file formats and their conversion or generation.  
-See repositories with [*fileformats* topics](https://github.com/search?q=topic%3Afileformats+org%3Aedyp-lab+fork%3Atrue&type=repositories)
+* The main repository creates the final distribution but it includes other modules, see description below.
 
-# mzdbConverter
-
-### mzdbConverter
+## msDataConverter
 **Public**
 
-Command line tool to convert Thermo raw File or Brucker .d directories to mzdb files.   
-This repository creates the final distribution and includes other modules (below). 
+Main repository 
 
-* Repository [MzdbConverter](https://github.com/edyp-lab/MzdbConverter)
-* Release download are accessible from [ProfiProteomics-Download](https://www.profiproteomics.fr/proline/proline-downloads/)
 
-### MzdbServerWriter
+## msDataConsumer
 **Private**  
 
-Start a Socket Server on specific port, and delegated process to mzdb-access. 
+This module is used to get msData information in order to process it.
+<br>The module starts a Socket Server on specific port, and delegated process to appropriated consumer
+* to mzdb writer to convert msData to mzdb File.
+* to metadata controller to create acquisition file Metadata for callbacks implementations 
  
-* Repository [MzdbServerWriter](https://github.com/edyp-lab/MzdbServerWriter) 
+* Repository [msDataConsumer](https://github.com/edyp-lab/msDataConsumer) 
 
-### Thermo 
+## ThermoAccess 
 **Private**  
 
-Thermo Fisher raw file reader, using ThermoFisher.CommonCore package. The read data may also be written into mzDB format on serializer server port
+This module, written in C#, is a Thermo Fisher raw file reader. It used ThermoFisher.CommonCore package.
+<br>
+The read data is sent on serializer socket server, unless read-only parameter is specified 
 
 * Repository [ThermoAccess](https://github.com/edyp-lab/ThermoAccess) 
+
+<br>
+Several projects deal with file formats and their conversion or generation.  
+See repositories with [*fileformats* topics](https://github.com/search?q=topic%3Afileformats+org%3Aedyp-lab+fork%3Atrue&type=repositories)

@@ -6,15 +6,15 @@ title: EDyP laboratory projects
 Welcome to the [EDyP](https://edyp.fr){:target="_blank"} laboratory computation proteomics projects website, which contains the software projects
 developed and maintained by the EDyP members. Here is a list of software developed in our lab. For each of them you can find links to source code repository, documentation or downloads 
 
-### ProstaR
+### Prostar
  
 A R/Shiny application dedicated to the differential analysis of quantitative data resulting from discovery proteomics experiments  
-See [ProstaR pages](pages/prostar) or  [ProstaR site](https://www.prostar-proteomics.org/){:target="_blank"}
+See [Prostar pages](pages/prostar) 
 
 ### Proline
 
 A software environment for analysis of mass spectrometry based proteomics data to organize, collect,  validate, quantify, visualize and publish proteomics datasets.  
-See [Proline pages](pages/proline) or  [Proline site](http://www.profiproteomics.fr/proline){:target="_blank"}
+See [Proline pages](pages/proline) 
 
 ### MzScope
 
@@ -24,7 +24,7 @@ See [MzScope page](pages/mzScope)
 ### Mzdb converter
 
 Converts raw files from various mass spectrometer manufacturers into mzdb files.  
-See [file format utils pages](pages/mzdbConverter)
+See [mzdbConverter pages](pages/mzdbConverter)
 
 ### MGFBoost
 

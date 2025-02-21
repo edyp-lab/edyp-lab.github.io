@@ -1,12 +1,12 @@
 ---
 layout: page
 title: ePims
+see_also: "false"
+web_home: "http://www.profiproteomics.fr/proline"
+github_project: "https://github.com/profiproteomics"
+github_issue: "https://github.com/profiproteomics/proline-server/issues"
+url_download: "http://www.profiproteomics.fr/proline-downloads/"
 ---
+<br>
 
-# ePims
 **Public**   
-
-GUI application for mzdb and MGF utilities as Peaklists extraction from mzDB Format and others features0=
-
-* Repository [mgfBoost](https://github.com/edyp-lab/ePims). Main repository creating distribution 
-* Release download are accessible 

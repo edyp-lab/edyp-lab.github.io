@@ -1,7 +1,8 @@
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
   <div class="container-fluid">
-    <a class="navbar-brand" rel="author" href="{{ "/" | relative_url }}"> {{ site.title | escape }}</a>
-
+    <a class="navbar-brand" rel="author" href="{{ "/" | relative_url }}">
+      <img src="/images/edyp3ng_circle_white.png" alt="Logo" width="50" height="50" class="d-inline-block align-middle">
+     &nbsp;&nbsp;{{ site.title | escape }}</a>
     {%- assign page_paths = site.header_pages -%}
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
@@ -12,7 +13,7 @@
             <a href="/" target="_self" class="nav-link"><i class="fa fa-home px-2"></i>Home</a>
           </li>
           <li class="nav-item">
-              <a href="{{ site.github.repository_url }}" target="_blank" class="nav-link"><i class="fa fa-github px-2"></i>GitHub</a>&nbsp;&nbsp;
+              <a href="{{ site.repository_url }}" target="_blank" class="nav-link"><i class="fa fa-github px-2"></i>GitHub</a>
           </li>
           <li class="nav-item">
             <a href="https://edyp.fr" target="_blank" class="nav-link"><i class="fa fa-globe px-2"></i>EDyP website</a>

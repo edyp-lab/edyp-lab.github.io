@@ -24,6 +24,7 @@ url: "https://edyp.fr" # the base hostname & protocol for your site, e.g. http:/
 #github_username:  jekyll
 
 repository: "edyp-lab"
+repository_url: "https://github.com/edyp-lab"
 
 # Build settings
 plugins:
@@ -32,7 +33,7 @@ plugins:
 
 # A list of the pages to display in the navigation bar
 header_pages:
-  - proline.md
+  - pages/proline
 
 # Exclude from processing.
 # The following items will not be processed, by default. Create a custom list
@@ -42,3 +43,4 @@ exclude:
   - Gemfile.lock
   - node_modules
   - update_boostrap.sh
+  - pages/example_prj.md

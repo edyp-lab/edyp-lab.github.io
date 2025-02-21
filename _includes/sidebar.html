@@ -1,0 +1,39 @@
+
+{% if page.see_also contains "true" %}
+<div class="list-group">
+    <div class="list-group-header">
+        <h5>See also...</h5>
+    </div>
+    <div >
+        {% if page.web_home %}
+        <a class="list-group-item list-group-item-action" href="{{ page.web_home }}" target="_blank">
+            <i class="fa fa-globe"></i>&nbsp;&nbsp;Project Site
+        </a>
+        {% endif %}
+        {% if page.github_project %}
+        <a class="list-group-item list-group-item-action" href="{{ page.github_project }}" target="_blank">
+            <i class="fa fa-github pr-1"></i>&nbsp;&nbsp;GitHub
+        </a>
+        {% endif %}
+        {% if page.github_issue %}
+        <a class="list-group-item list-group-item-action" href="{{ page.github_issue }}" target="_blank">
+            <i class="fa fa-exclamation-circle pr-1"></i>&nbsp;&nbsp;Issues
+        </a>
+        {% else if page.github_project %}
+        <a class="list-group-item list-group-item-action" href="{{ page.github_project }}/issues" target="_blank">
+            <i class="fa fa-exclamation-circle pr-1"></i>&nbsp;&nbsp;Issues
+        </a>
+        {% endif %}
+        {% if page.url_download %}
+        <a class="list-group-item list-group-item-action" href="{{ page.url_download }}" target="_blank">
+            <i class="fa fa-arrow-circle-down pr-1"></i>&nbsp;&nbsp;Download
+        </a>
+        {% endif %}
+    </div>
+</div>
+
+{% endif %}
+<br>
+
+
+
