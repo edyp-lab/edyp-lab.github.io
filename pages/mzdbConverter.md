@@ -23,15 +23,17 @@ For Brucker .d folders :
 <img alt="mzdb_convert help" src="/images/mzdb_convert_brucker.png" class="screenshot" />
 </a>
 
+## Repositories
+
 * The main repository creates the final distribution but it includes other modules, see description below.
 
-## msDataConverter
+### msDataConverter
 **Public**
 
 Main repository 
 
 
-## msDataConsumer
+### msDataConsumer
 **Private**  
 
 This module is used to get msData information in order to process it.
@@ -41,7 +43,7 @@ This module is used to get msData information in order to process it.
  
 * Repository [msDataConsumer](https://github.com/edyp-lab/msDataConsumer) 
 
-## ThermoAccess 
+### ThermoAccess 
 **Private**  
 
 This module, written in C#, is a Thermo Fisher raw file reader. It used ThermoFisher.CommonCore package.

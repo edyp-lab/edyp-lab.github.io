@@ -14,6 +14,10 @@ GUI application for mzdb and MGF utilities as Peaklists extraction from mzDB For
 <a href="/images/mgfBoost.png" target="_blank">
     <img alt="mgfboost screenshot" src="/images/mgfBoost.png" class="screenshot" />
 </a>
+ 
+* Release download is accessible from [ProfiProteomics-Other tools](https://www.profiproteomics.fr/proline/other-tools/)
 
-* Main repository creating distribution is on GitHub EDyP laboratory.  
-* Release download are accessible from [ProfiProteomics-Other tools](https://www.profiproteomics.fr/proline/other-tools/)
+## Repositories
+
+Main repository creating distribution is on GitHub EDyP laboratory. This project is build on another module
+* mzdb-swissknife also on EDyP-lab gitHub. A set of tools for mzdb and mgf files.  [Access to the reposotory](https://github.com/edyp-lab/mzdb-swissknife)  

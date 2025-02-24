@@ -16,3 +16,9 @@ mzScope is a visualization and exploration tool written in Java allowing users t
 <br>
 Since mzDB format support DIA MS data, mzScope also provides MS2 chromatogram extraction within a selected isolation window that can be performed on user supplied m/z values or from ion fragment masses imported from a spectral library. 
 Those features combined with the efficiency of the mzDB format make mzScope a suitable tool for MS data visualization and exploration or for raw MS signal comparison.
+
+
+## Repositories
+
+mzScope repository is hosted on [ProfiProteomics](https://github.com/profiproteomics) gitHub. 
+
