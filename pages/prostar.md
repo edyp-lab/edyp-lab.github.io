@@ -10,16 +10,21 @@ url_download: "https://www.prostar-proteomics.org/#Software"
 A software tool dedicated to the differential analysis of quantitative data resulting from discovery proteomics experiments.
 <br>
 <a href="/images/prostar.png" target="_blank">
-    <img src="/images/prostar.png" class="screenshot" />
+    <img alt="prostar_screenshot"  src="/images/prostar.png" class="screenshot" />
 </a>
 
-A detailed description, help and downloads are available on Prostar site...
+A detailed description, help and downloads are available on Prostar site...[Prostar Site](https://www.prostar-proteomics.org)
 
-* Following repositories belongs to ProstaR project (version 2:
-  * Pirat
+## Repositories
+
+* Following repositories belongs to ProstaR project (version 1):
+  * Prostar
   * DAPAR
-  * Prostar2
+  * DAPARdata
 
-**Question** ==> Lien vers le zip de la release ?  
-**Question** ==> ProstaR v1 vs v2 ?  
-**Question** ==> a Sam de voir les sous projets à faire apparaitre ou à masquer
+* A new version, Proline 2, is currently under development. The repositories of Prostar2 are:
+  * Prostar2 
+  * MagellanNTK
+  * DaparToolShed
+  * DaparToolShedData
+
