@@ -1,12 +1,21 @@
 ---
-layout: page
+layout: project
 title: ePims
-see_also: "false"
-web_home: "http://www.profiproteomics.fr/proline"
-github_project: "https://github.com/profiproteomics"
-github_issue: "https://github.com/profiproteomics/proline-server/issues"
-url_download: "http://www.profiproteomics.fr/proline-downloads/"
+img_project : "/images/epims1.png"
+see_also: "true"
+github_issue: "https://bioproj.extra.cea.fr/redmine/projects/epims/issues"
+web_home: "http://biodev.extra.cea.fr/docs/epims"
 ---
 <br>
+ePims is a LIMS (Laboratory Information Management System) dedicated to Proteomics data, in particular mass spectrometry data.  
+ It provides activity monitoring and traceability of electronic data related to proteomic mass spectrometry analyses.
+<br>
 
-**Public**   
+Download, support and details will be available soon. 
+
+## Repositories
+
+Git repositories will be migrated to github soon.
+
+
+

@@ -261,6 +261,34 @@ input,
   margin-right: 50px !important;
 }
 
+
+.fa-grayicon {
+  color: $gray-600;
+}
+
+ .zoom-container {
+   width: 100%;
+   height: 200px; /* Fixed size */
+   overflow: hidden;
+ }
+
+.zoom-container img {
+  width: 100%; /* Increase image size (zoom) */
+  //height: 100%; /* Keep proportions */
+  object-fit: contain; /* Ensure it fills the container */
+  position: relative;
+  top: -50px; /* Adjust to center desired portion */
+
+  //display: block;
+  //margin-left: auto;
+  //margin-right: auto;
+}
+
+//.zoom-container:hover img {
+//  transform: scale(2); /* Zoom level */
+//}
+
+
 .screenshot {
   max-width: 80%;
   display: block;

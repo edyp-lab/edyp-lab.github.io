@@ -9,34 +9,48 @@ developed and maintained by the EDyP members. Here is a list of software develop
 ### Prostar
  
 A R/Shiny application dedicated to the differential analysis of quantitative data resulting from discovery proteomics experiments  
-See [Prostar pages](pages/prostar) 
+<a href="pages/prostar" ><i class="fa fa-arrow-circle-right"></i></a> [Prostar pages](pages/prostar)
+<br><br>
 
 ### Proline
 
 A software environment for analysis of mass spectrometry based proteomics data to organize, collect,  validate, quantify, visualize and publish proteomics datasets.  
-See [Proline pages](pages/proline) 
+<a href="pages/proline" ><i class="fa fa-arrow-circle-right"></i></a> [Proline pages](pages/proline)
+<br><br>
 
 ### MzScope
 
 Display and navigate MS data from mzdb files.  
-See [MzScope page](pages/mzScope)
+<a href="pages/mzScope" ><i class="fa fa-arrow-circle-right"></i></a> [MzScope page](pages/mzScope)
+<br><br>
 
-### Mzdb converter
+### Mzdb converter / msData converter
 
 Converts raw files from various mass spectrometer manufacturers into mzdb files.  
-See [mzdbConverter pages](pages/mzdbConverter)
+<a href="pages/mzdbConverter" ><i class="fa fa-arrow-circle-right"></i></a> [mzdbConverter pages](pages/mzdbConverter)
+<br><br>
 
 ### MGFBoost
 
 MGFBoost extract peaklists from raw MS data in mzdb format prior to search engine submission for peptide identification.  
-See [MGFBoost pages](pages/mgfBoost)
+<a href="pages/mgfBoost" ><i class="fa fa-arrow-circle-right"></i></a> [mgfBoost pages](pages/mgfBoost)
+<br><br>
 
-### ePims
+### ePims  
 
 A LIMS dedicated to mass spectrometry data.  
-See [ePims pages](pages/ePims) : **TO BE DONE**
+<a href="pages/ePims" ><i class="fa fa-arrow-circle-right"></i></a> [ePims pages](pages/ePims)
+<br><br>
+  
+### Mascot Swissknife
 
-## Tools
+A set of tools for fasta file and mascot databases  
+<a href="pages/mascotSwissknife" ><i class="fa fa-arrow-circle-right"></i></a> [Mascot Swissknife pages](pages/mascotSwissknife)
+<br><br>
 
-A set of usefully tools is also defined through few repositories.  
-A list with description is accessible on [Tools pages](pages/Tools.md)   **TO BE DONE**
+### Proline Swissknife 
+
+A set of tools for simple proline data processing, accessing databases  
+<a href="pages/prolineSwissknife" ><i class="fa fa-arrow-circle-right"></i></a> [Proline Swissknife pages](pages/prolineSwissknife)
+<br><br>
+

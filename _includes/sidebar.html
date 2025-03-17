@@ -29,6 +29,11 @@
             <i class="fa fa-arrow-circle-down pr-1"></i>&nbsp;&nbsp;Download
         </a>
         {% endif %}
+        {% if page.url_help %}
+        <a class="list-group-item list-group-item-action" href="{{ page.url_help }}" target="_blank">
+            <i class="fa fa-book pr-1"></i>&nbsp;&nbsp;Help
+        </a>
+        {% endif %}
     </div>
 </div>
 

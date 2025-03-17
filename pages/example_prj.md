@@ -1,6 +1,7 @@
 ---
 layout: project
 title: project_title
+img_project : "path to image to display as page banner: /images/image.png"
 see_also: "true" <!-- Sidebar is needed ?  yes if at least one of following defined -->
 web_home: "URL to Project Site"
 github_project: "URL to Project Github"
