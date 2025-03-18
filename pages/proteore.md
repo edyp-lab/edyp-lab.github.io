@@ -5,6 +5,7 @@ img_project: "/images/proteore.png"
 see_also: "true"
 web_home: "https://proteore.org/"
 github_project: "https://github.com/vloux/ProteoRE"
+url_help: "https://training.galaxyproject.org/training-material/topics/proteomics/tutorials/proteome_annotation/tutorial.html"
 ---
 <br>
 ProteoRE allows researchers to apply a large range of bioinformatics tools and tailored workflows on their own data using Galaxy capabilities 
