@@ -7,13 +7,17 @@ web_home: "URL to Project Site"
 github_project: "URL to Project Github"
 github_issue: "URL to Project Github issue (if = project_github/issues, could be omitted)"
 url_download: "URL to Project distribution download page"
+url_help: "URL to Project documentation"
 ---
 <br>
 Short description of project
 <br>
-<a href="/images/project_screenshot.png" target="_blank">
-    <img src="/images/project_screenshot.png" class="screenshot" />
-</a>
 
 <br>
-ALL Project infos ... 
+ALL Project infos ...
+
+## Repositories
+
+Repositories list 
+* repo1 <i class="fa fa-grayicon fa-unlock" title="Public" style="color: $gray-300;"></i> (public) <a href="https://github.com/PROJECT" target="_blank"><i class="fa fa-github"></i></a>(Github )
+* repo2 <i class="fa fa-grayicon fa-lock" title="Private" style="color: $gray-300;"></i> (private) <a href="https://github.com/PROJECT" target="_blank"><i class="fa fa-github"></i></a>(Github )

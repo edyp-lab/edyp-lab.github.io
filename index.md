@@ -54,3 +54,8 @@ A set of tools for simple proline data processing, accessing databases
 <a href="pages/prolineSwissknife" ><i class="fa fa-arrow-circle-right"></i></a> [Proline Swissknife pages](pages/prolineSwissknife)
 <br><br>
 
+### Well Plate Maker
+
+The WPM allows users to generate well plate maps to carry out their experiments while improving the handling of batch effects  
+<a href="pages/wellPlateMaker" ><i class="fa fa-arrow-circle-right"></i></a> [Well_Plate_Maker pages](pages/wellPlateMaker)
+<br><br>
