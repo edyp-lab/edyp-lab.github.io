@@ -59,3 +59,9 @@ A set of tools for simple proline data processing, accessing databases
 The WPM allows users to generate well plate maps to carry out their experiments while improving the handling of batch effects  
 <a href="pages/wellPlateMaker" ><i class="fa fa-arrow-circle-right"></i></a> [Well_Plate_Maker pages](pages/wellPlateMaker)
 <br><br>
+
+### ProteoRE 
+
+ProteoRE (Proteomics Research Environment) is a Galaxy-based platform for the functional analysis and the interpretation of proteomics and transcriptomics data in biomedical research    
+<a href="pages/proteore" ><i class="fa fa-arrow-circle-right"></i></a> [ProteoRE pages](pages/proteore)
+<br><br>
