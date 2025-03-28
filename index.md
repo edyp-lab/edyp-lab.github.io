@@ -54,6 +54,12 @@ A set of tools for simple proline data processing, accessing databases
 <a href="pages/prolineSwissknife" ><i class="fa fa-arrow-circle-right"></i></a> [Proline Swissknife pages](pages/prolineSwissknife)
 <br><br>
 
+### Histone PTM
+
+A 'R' toolset to analyze histone PTMs proteomics data   
+<a href="pages/histonePTM" ><i class="fa fa-arrow-circle-right"></i></a> [Histone PTM pages](pages/histonePTM)
+<br><br>
+
 ### Well Plate Maker
 
 The WPM allows users to generate well plate maps to carry out their experiments while improving the handling of batch effects  
